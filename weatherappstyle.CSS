@@ -1,0 +1,71 @@
+* {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #38b0e0ec;
+      background-image: radial-gradient(circle, rgb(69, 121, 217) 2px, transparent 3px);
+      background-size: 40px 40px;
+      background-repeat: repeat;
+      background-position: top center;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+     h1 {
+      font-size: 50px;
+      color: white;
+      font-style: italic;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: #f0f8ff;
+    }
+    .weather-card {
+      width: 400px;
+      border: 3px solid white;
+      border-radius: 20px;
+      background-image: linear-gradient(to bottom right, #150275, #b6e0fa);
+    }
+    .weather-icon {
+      font-size: 70px;
+      animation: floatCloud 5s infinite alternate;
+    }
+    #temperature {
+      font-size: 48px;
+      font-weight: bold;
+      color: #fffacd;
+    }
+    .details {
+      font-size: 18px;
+      color: white;
+    }
+    .forecast-section {
+      width: 600px;
+      border: 3px solid white;
+      border-radius: 15px;
+      background-image: radial-gradient(circle, white, #add8e6);
+      color: #003366;
+    }
+    .forecast-title {
+      color: #003366;
+      animation: floatCloud 3s infinite alternate;
+    }
+    .day {
+      border: 2px solid #b30c81;
+      font-size: 17px;
+      color: #0657a8;
+      animation: floatCloud 3s infinite alternate;
+    }
+    h2, h3 {
+      color: white;
+    }
+    @keyframes floatCloud {
+      from {
+        transform: translateY(0);
+      }
+ 
+      to {
+        transform: translateY(20px);
+      }
+    }
